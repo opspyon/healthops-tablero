@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Sistema de diseño Clivi */
+@theme {
+  --color-teal: #00547c;
+  --color-teal-oscuro: #003d5b;
+  --color-teal-suave: #e3eef3;
+  --color-offwhite: #f8f7f4;
+  --color-lilac: #414392;
+  --color-lilac-soft: #cad1fb;
+  --color-ink: #242424;
+  --font-sans: var(--font-public-sans), system-ui, sans-serif;
+}
+
+html {
+  background: var(--color-offwhite);
+  color: var(--color-ink);
+}
+
+body {
+  background: var(--color-offwhite);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-lilac);
+  outline-offset: 2px;
+}
+
+dialog::backdrop {
+  background: rgb(36 36 36 / 0.45);
+}
