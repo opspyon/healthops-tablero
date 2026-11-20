@@ -6,6 +6,17 @@ Prototipo del tablero de HealthOps: tickets de HubSpot "Adelantar cita", solicit
 - Primer prompt: `docs/PROMPT-ETAPA-1.md`
 - Datos de ejemplo (anonimizados): `data/ejemplo-19nov.json`
 
+## Cómo correrlo
+
+Necesitas Node.js (versión LTS) y npm.
+
+```bash
+npm install
+npm run dev
+```
+
+Abre http://localhost:3000. Lo que marques (Hecho, Tomar, Resolver, Escalar, Atender) se guarda solo en tu navegador; el botón "Reiniciar datos de prueba" en Escalaciones lo borra.
+
 ## Etapas
 
 1. Prototipo local con datos de ejemplo (este repositorio).
