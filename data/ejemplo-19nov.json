@@ -1,0 +1,1072 @@
+{
+  "_nota": "Datos de ejemplo basados en el corte del 19 nov 2026, 18:05. Tickets anonimizados (T-DEMO-###); sin datos de pacientes. No subir datos reales ni tokens a este repositorio.",
+  "corte": "2026-11-19T18:05:00-06:00",
+  "serie_abiertos": [
+    {
+      "corte": "13 nov",
+      "abiertos": 101
+    },
+    {
+      "corte": "14 nov",
+      "abiertos": 140
+    },
+    {
+      "corte": "16 nov",
+      "abiertos": 174
+    },
+    {
+      "corte": "17 nov 9h",
+      "abiertos": 205
+    },
+    {
+      "corte": "17 nov 18h",
+      "abiertos": 166
+    },
+    {
+      "corte": "18 nov 9h",
+      "abiertos": 169
+    },
+    {
+      "corte": "18 nov 16h",
+      "abiertos": 166
+    },
+    {
+      "corte": "19 nov 9h",
+      "abiertos": 164
+    },
+    {
+      "corte": "19 nov 17h",
+      "abiertos": 138
+    },
+    {
+      "corte": "19 nov 18h",
+      "abiertos": 104
+    }
+  ],
+  "dia": {
+    "abiertos_inicio": 164,
+    "cerrados": 72,
+    "nuevos": 12,
+    "abiertos_cierre": 104,
+    "record_anterior": 53
+  },
+  "agentes": [
+    {
+      "nombre": "Janet",
+      "enfoque": "Primera vez",
+      "cerrados_hoy": 35,
+      "citas_adelantadas": 9,
+      "dias_ganados": 101,
+      "motivos": {
+        "duplicado": 13,
+        "cita_cercana": 10,
+        "atendido": 3,
+        "cita_adelantada": 8,
+        "sin_cambio": 1
+      }
+    },
+    {
+      "nombre": "Brenda",
+      "enfoque": "Primera vez",
+      "cerrados_hoy": 30,
+      "citas_adelantadas": 1,
+      "dias_ganados": 16,
+      "motivos": {
+        "duplicado": 11,
+        "cita_cercana": 11,
+        "atendido": 8,
+        "cita_adelantada": 0,
+        "sin_cambio": 0
+      }
+    },
+    {
+      "nombre": "Aureni",
+      "enfoque": "Subsecuentes",
+      "cerrados_hoy": 6,
+      "citas_adelantadas": 2,
+      "dias_ganados": 5,
+      "motivos": {
+        "duplicado": 2,
+        "cita_cercana": 1,
+        "atendido": 1,
+        "cita_adelantada": 2,
+        "sin_cambio": 0
+      }
+    },
+    {
+      "nombre": "Eduardo",
+      "enfoque": "Labs",
+      "cerrados_hoy": 1,
+      "citas_adelantadas": 0,
+      "dias_ganados": 0,
+      "motivos": {
+        "duplicado": 1,
+        "cita_cercana": 0,
+        "atendido": 0,
+        "cita_adelantada": 0,
+        "sin_cambio": 0
+      }
+    },
+    {
+      "nombre": "Lulú",
+      "enfoque": "Labs",
+      "cerrados_hoy": 0,
+      "citas_adelantadas": 0,
+      "dias_ganados": 0,
+      "motivos": {
+        "duplicado": 0,
+        "cita_cercana": 0,
+        "atendido": 0,
+        "cita_adelantada": 0,
+        "sin_cambio": 0
+      }
+    }
+  ],
+  "por_cerrar": [
+    {
+      "ticket": "T-DEMO-001",
+      "grupo": "duplicado",
+      "owner": "Janet",
+      "cita": "2026-12-02",
+      "intentos": 2,
+      "en_pausa": false,
+      "que_hacer": "Cerrar el IMC +30; se queda el AE con labs"
+    },
+    {
+      "ticket": "T-DEMO-002",
+      "grupo": "cerrar_ya",
+      "owner": "Brenda",
+      "cita": "2026-11-24",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 24 nov"
+    },
+    {
+      "ticket": "T-DEMO-003",
+      "grupo": "cerrar_ya",
+      "owner": "Brenda",
+      "cita": "2026-11-24",
+      "intentos": 1,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 24 nov"
+    },
+    {
+      "ticket": "T-DEMO-004",
+      "grupo": "cerrar_ya",
+      "owner": "Brenda",
+      "cita": "2026-11-24",
+      "intentos": 1,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 24 nov"
+    },
+    {
+      "ticket": "T-DEMO-005",
+      "grupo": "cerrar_ya",
+      "owner": "Brenda",
+      "cita": "2026-11-24",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 24 nov"
+    },
+    {
+      "ticket": "T-DEMO-006",
+      "grupo": "cerrar_ya",
+      "owner": "Janet",
+      "cita": "2026-11-24",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 24 nov"
+    },
+    {
+      "ticket": "T-DEMO-007",
+      "grupo": "cerrar_ya",
+      "owner": "Brenda",
+      "cita": "2026-11-24",
+      "intentos": 1,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 24 nov"
+    },
+    {
+      "ticket": "T-DEMO-008",
+      "grupo": "cerrar_ya",
+      "owner": "Janet",
+      "cita": "2026-11-24",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 24 nov"
+    },
+    {
+      "ticket": "T-DEMO-009",
+      "grupo": "cerrar_ya",
+      "owner": "Brenda",
+      "cita": "2026-11-24",
+      "intentos": 8,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 24 nov"
+    },
+    {
+      "ticket": "T-DEMO-010",
+      "grupo": "cerrar_ya",
+      "owner": "Janet",
+      "cita": "2026-11-25",
+      "intentos": 1,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 25 nov"
+    },
+    {
+      "ticket": "T-DEMO-011",
+      "grupo": "cerrar_ya",
+      "owner": "Janet",
+      "cita": "2026-11-25",
+      "intentos": 1,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 25 nov"
+    },
+    {
+      "ticket": "T-DEMO-012",
+      "grupo": "cerrar_ya",
+      "owner": "Janet",
+      "cita": "2026-11-25",
+      "intentos": 4,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 25 nov"
+    },
+    {
+      "ticket": "T-DEMO-013",
+      "grupo": "cerrar_ya",
+      "owner": "Janet",
+      "cita": "2026-11-25",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 25 nov"
+    },
+    {
+      "ticket": "T-DEMO-014",
+      "grupo": "cerrar_ya",
+      "owner": "Brenda",
+      "cita": "2026-11-25",
+      "intentos": 2,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 25 nov"
+    },
+    {
+      "ticket": "T-DEMO-015",
+      "grupo": "cerrar_ya",
+      "owner": "Brenda",
+      "cita": "2026-11-25",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 25 nov"
+    },
+    {
+      "ticket": "T-DEMO-016",
+      "grupo": "cerrar_ya",
+      "owner": "Janet",
+      "cita": "2026-11-26",
+      "intentos": 2,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 26 nov"
+    },
+    {
+      "ticket": "T-DEMO-017",
+      "grupo": "cerrar_ya",
+      "owner": "Janet",
+      "cita": "2026-11-26",
+      "intentos": 2,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 26 nov"
+    },
+    {
+      "ticket": "T-DEMO-018",
+      "grupo": "cerrar_ya",
+      "owner": "Janet",
+      "cita": "2026-11-26",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 26 nov"
+    },
+    {
+      "ticket": "T-DEMO-019",
+      "grupo": "cerrar_ya",
+      "owner": "Brenda",
+      "cita": "2026-11-26",
+      "intentos": 2,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 26 nov"
+    },
+    {
+      "ticket": "T-DEMO-020",
+      "grupo": "cerrar_ya",
+      "owner": "Brenda",
+      "cita": "2026-11-26",
+      "intentos": 2,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 26 nov"
+    },
+    {
+      "ticket": "T-DEMO-021",
+      "grupo": "cerrar_ya",
+      "owner": "Brenda",
+      "cita": "2026-11-26",
+      "intentos": 3,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 26 nov"
+    },
+    {
+      "ticket": "T-DEMO-022",
+      "grupo": "cerrar_ya",
+      "owner": "Janet",
+      "cita": "2026-11-26",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Ya tiene cita el 26 nov"
+    },
+    {
+      "ticket": "T-DEMO-023",
+      "grupo": "cerrar_ya",
+      "owner": "Aureni",
+      "cita": "2026-11-23",
+      "intentos": 0,
+      "en_pausa": true,
+      "que_hacer": "En pausa: cita el 23 nov, se deja abierto"
+    },
+    {
+      "ticket": "T-DEMO-024",
+      "grupo": "validar",
+      "owner": "Brenda",
+      "cita": "2026-11-23",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Cita el 23 nov, pero su última cita quedó 'Cancelada'"
+    },
+    {
+      "ticket": "T-DEMO-025",
+      "grupo": "validar",
+      "owner": "Brenda",
+      "cita": "2026-11-24",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Cita el 24 nov, pero su última cita quedó 'Cancelada'"
+    },
+    {
+      "ticket": "T-DEMO-026",
+      "grupo": "validar",
+      "owner": "Janet",
+      "cita": "2026-11-24",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Cita el 24 nov, pero su última cita quedó 'Cancelada'"
+    },
+    {
+      "ticket": "T-DEMO-027",
+      "grupo": "validar",
+      "owner": "Janet",
+      "cita": "2026-11-24",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Cita el 24 nov, pero su última cita quedó 'Cancelada'"
+    },
+    {
+      "ticket": "T-DEMO-028",
+      "grupo": "validar",
+      "owner": "Janet",
+      "cita": "2026-11-24",
+      "intentos": 2,
+      "en_pausa": false,
+      "que_hacer": "Cita el 24 nov, pero su última cita quedó 'Cancelada'"
+    },
+    {
+      "ticket": "T-DEMO-029",
+      "grupo": "validar",
+      "owner": "Brenda",
+      "cita": "2026-11-25",
+      "intentos": 15,
+      "en_pausa": false,
+      "que_hacer": "Cita el 25 nov, pero su última cita quedó 'Cancelada'"
+    },
+    {
+      "ticket": "T-DEMO-030",
+      "grupo": "validar",
+      "owner": "Janet",
+      "cita": "2026-11-26",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Cita el 26 nov, pero su última cita quedó 'Cancelada'"
+    },
+    {
+      "ticket": "T-DEMO-031",
+      "grupo": "validar",
+      "owner": "Janet",
+      "cita": "2026-11-26",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Cita el 26 nov, pero su última cita quedó 'Cancelada'"
+    },
+    {
+      "ticket": "T-DEMO-032",
+      "grupo": "validar",
+      "owner": "Brenda",
+      "cita": "2026-11-26",
+      "intentos": 1,
+      "en_pausa": false,
+      "que_hacer": "Cita el 26 nov, pero su última cita quedó 'Cancelada'"
+    },
+    {
+      "ticket": "T-DEMO-033",
+      "grupo": "validar",
+      "owner": "Janet",
+      "cita": "2026-11-26",
+      "intentos": 2,
+      "en_pausa": false,
+      "que_hacer": "Cita el 26 nov, pero su última cita quedó 'Cancelada'"
+    },
+    {
+      "ticket": "T-DEMO-034",
+      "grupo": "validar",
+      "owner": "Brenda",
+      "cita": "2026-11-26",
+      "intentos": 0,
+      "en_pausa": false,
+      "que_hacer": "Cita el 26 nov, pero su última cita quedó 'Cancelada'"
+    },
+    {
+      "ticket": "T-DEMO-035",
+      "grupo": "validar",
+      "owner": "Brenda",
+      "cita": "2026-11-26",
+      "intentos": 4,
+      "en_pausa": false,
+      "que_hacer": "Cita el 26 nov, pero su última cita quedó 'Cancelada'"
+    },
+    {
+      "ticket": "T-DEMO-036",
+      "grupo": "sin_respuesta",
+      "owner": "Brenda",
+      "cita": "2026-11-28",
+      "intentos": 2,
+      "en_pausa": false,
+      "que_hacer": "2 intentos sin respuesta, último el 9 nov"
+    },
+    {
+      "ticket": "T-DEMO-037",
+      "grupo": "sin_respuesta",
+      "owner": "Janet",
+      "cita": "2026-12-07",
+      "intentos": 4,
+      "en_pausa": false,
+      "que_hacer": "4 intentos sin respuesta, último el 15 nov"
+    },
+    {
+      "ticket": "T-DEMO-038",
+      "grupo": "sin_respuesta",
+      "owner": "Janet",
+      "cita": "2026-12-04",
+      "intentos": 2,
+      "en_pausa": false,
+      "que_hacer": "2 intentos sin respuesta, último el 16 nov"
+    }
+  ],
+  "por_adelantar": [
+    {
+      "ticket": "T-DEMO-101",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-11-27",
+      "intentos": 2,
+      "labs_recibidos": "2026-11-19"
+    },
+    {
+      "ticket": "T-DEMO-102",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-11-30",
+      "intentos": 6,
+      "labs_recibidos": "2026-11-19"
+    },
+    {
+      "ticket": "T-DEMO-103",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-02",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-19"
+    },
+    {
+      "ticket": "T-DEMO-104",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-02",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-105",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-07",
+      "intentos": 1,
+      "labs_recibidos": "2026-11-19"
+    },
+    {
+      "ticket": "T-DEMO-106",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-08",
+      "intentos": 1,
+      "labs_recibidos": "2026-11-19"
+    },
+    {
+      "ticket": "T-DEMO-107",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-08",
+      "intentos": 1,
+      "labs_recibidos": "2026-11-19"
+    },
+    {
+      "ticket": "T-DEMO-108",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-09",
+      "intentos": 5,
+      "labs_recibidos": "2026-11-19"
+    },
+    {
+      "ticket": "T-DEMO-109",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-11-27",
+      "intentos": 2,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-110",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-11-30",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-111",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-11-30",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-112",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-01",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-113",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-01",
+      "intentos": 7,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-114",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-01",
+      "intentos": 4,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-115",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-02",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-116",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-02",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-117",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-03",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-118",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-03",
+      "intentos": 2,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-119",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-04",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-120",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-07",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-121",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-08",
+      "intentos": 2,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-122",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-09",
+      "intentos": 1,
+      "labs_recibidos": "2026-11-18"
+    },
+    {
+      "ticket": "T-DEMO-123",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-01",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-17"
+    },
+    {
+      "ticket": "T-DEMO-124",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-01",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-17"
+    },
+    {
+      "ticket": "T-DEMO-125",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-03",
+      "intentos": 2,
+      "labs_recibidos": "2026-11-17"
+    },
+    {
+      "ticket": "T-DEMO-126",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-03",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-17"
+    },
+    {
+      "ticket": "T-DEMO-127",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-03",
+      "intentos": 3,
+      "labs_recibidos": "2026-11-17"
+    },
+    {
+      "ticket": "T-DEMO-128",
+      "grupo": "A",
+      "owner": "Janet",
+      "cita": "2026-12-12",
+      "intentos": 1,
+      "labs_recibidos": "2026-11-17"
+    },
+    {
+      "ticket": "T-DEMO-129",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-11-27",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-16"
+    },
+    {
+      "ticket": "T-DEMO-130",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-03",
+      "intentos": 1,
+      "labs_recibidos": "2026-11-16"
+    },
+    {
+      "ticket": "T-DEMO-131",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-03",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-16"
+    },
+    {
+      "ticket": "T-DEMO-132",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-03",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-16"
+    },
+    {
+      "ticket": "T-DEMO-133",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-03",
+      "intentos": 1,
+      "labs_recibidos": "2026-11-16"
+    },
+    {
+      "ticket": "T-DEMO-134",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-04",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-16"
+    },
+    {
+      "ticket": "T-DEMO-135",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-11-27",
+      "intentos": 1,
+      "labs_recibidos": "2026-11-15"
+    },
+    {
+      "ticket": "T-DEMO-136",
+      "grupo": "A",
+      "owner": "Brenda",
+      "cita": "2026-12-04",
+      "intentos": 0,
+      "labs_recibidos": "2026-11-15"
+    },
+    {
+      "ticket": "T-DEMO-137",
+      "grupo": "B",
+      "owner": "Janet",
+      "cita": "2026-11-27",
+      "intentos": 2,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-138",
+      "grupo": "B",
+      "owner": "Janet",
+      "cita": "2026-12-01",
+      "intentos": 1,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-139",
+      "grupo": "B",
+      "owner": "Janet",
+      "cita": "2026-12-07",
+      "intentos": 2,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-140",
+      "grupo": "B",
+      "owner": "Janet",
+      "cita": "2026-12-03",
+      "intentos": 1,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-141",
+      "grupo": "B",
+      "owner": "Janet",
+      "cita": "2026-12-24",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-142",
+      "grupo": "B",
+      "owner": "Brenda",
+      "cita": "2026-12-01",
+      "intentos": 1,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-143",
+      "grupo": "B",
+      "owner": "Janet",
+      "cita": "2026-12-02",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-144",
+      "grupo": "B",
+      "owner": "Janet",
+      "cita": "2026-12-03",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-145",
+      "grupo": "C",
+      "owner": "Janet",
+      "cita": "2026-12-03",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-146",
+      "grupo": "C",
+      "owner": "Brenda",
+      "cita": "2026-12-03",
+      "intentos": 1,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-147",
+      "grupo": "C",
+      "owner": "Janet",
+      "cita": "2026-12-03",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-148",
+      "grupo": "C",
+      "owner": "Brenda",
+      "cita": "2026-12-04",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-149",
+      "grupo": "C",
+      "owner": "Brenda",
+      "cita": "2026-12-07",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-150",
+      "grupo": "C",
+      "owner": "Janet",
+      "cita": "2026-12-07",
+      "intentos": 1,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-151",
+      "grupo": "C",
+      "owner": "Brenda",
+      "cita": "2026-12-07",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-152",
+      "grupo": "C",
+      "owner": "Janet",
+      "cita": "2026-12-07",
+      "intentos": 9,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-153",
+      "grupo": "C",
+      "owner": "Janet",
+      "cita": "2026-12-09",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-154",
+      "grupo": "C",
+      "owner": "Eduardo",
+      "cita": null,
+      "intentos": 3,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-155",
+      "grupo": "D",
+      "owner": "Brenda",
+      "cita": "2026-11-27",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-156",
+      "grupo": "D",
+      "owner": "Brenda",
+      "cita": "2026-11-27",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-157",
+      "grupo": "D",
+      "owner": "Brenda",
+      "cita": "2026-11-27",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-158",
+      "grupo": "D",
+      "owner": "Brenda",
+      "cita": "2026-11-28",
+      "intentos": 1,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-159",
+      "grupo": "D",
+      "owner": "Janet",
+      "cita": "2026-11-30",
+      "intentos": 1,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-160",
+      "grupo": "D",
+      "owner": "Janet",
+      "cita": "2026-12-01",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-161",
+      "grupo": "D",
+      "owner": "Janet",
+      "cita": "2026-12-02",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-162",
+      "grupo": "D",
+      "owner": "Brenda",
+      "cita": "2026-12-02",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-163",
+      "grupo": "D",
+      "owner": "Janet",
+      "cita": "2026-12-02",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-164",
+      "grupo": "D",
+      "owner": "Janet",
+      "cita": "2026-12-02",
+      "intentos": 1,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-165",
+      "grupo": "D",
+      "owner": "Janet",
+      "cita": "2026-12-02",
+      "intentos": 0,
+      "labs_recibidos": null
+    },
+    {
+      "ticket": "T-DEMO-166",
+      "grupo": "D",
+      "owner": "Janet",
+      "cita": "2026-12-02",
+      "intentos": 0,
+      "labs_recibidos": null
+    }
+  ],
+  "chat_ejemplo": [
+    {
+      "id": "#1042",
+      "tipo": "Doctor sin conexión",
+      "urgencia": "Alta",
+      "espacio": "PX",
+      "hace": "25 min"
+    },
+    {
+      "id": "#1047",
+      "tipo": "Adelantar cita con labs",
+      "urgencia": "Alta",
+      "espacio": "Sales PX",
+      "hace": "12 min"
+    },
+    {
+      "id": "#1044",
+      "tipo": "No pueden emitir receta",
+      "urgencia": "Alta",
+      "espacio": "PX",
+      "hace": "40 min"
+    },
+    {
+      "id": "#1049",
+      "tipo": "Subir labs a plataforma",
+      "urgencia": "Media",
+      "espacio": "PX",
+      "hace": "6 min"
+    },
+    {
+      "id": "#1050",
+      "tipo": "Reagendar",
+      "urgencia": "Media",
+      "espacio": "PX",
+      "hace": "2 min"
+    },
+    {
+      "id": "#1046",
+      "tipo": "Cambio de especialista",
+      "urgencia": "Media",
+      "espacio": "PX",
+      "hace": "30 min"
+    }
+  ],
+  "escalaciones_ejemplo": [
+    {
+      "id": "E1",
+      "para": "Grace",
+      "motivo": "Queja de paciente",
+      "titulo": "Paciente molesto: le cambiaron la cita dos veces",
+      "origen": "Chat #1031",
+      "escalo": "Brenda",
+      "hace": "1 h"
+    },
+    {
+      "id": "E2",
+      "para": "Ari",
+      "motivo": "Doctor no responde",
+      "titulo": "Doctor canceló 3 consultas sin aviso",
+      "origen": "Chat #1038",
+      "escalo": "Aureni",
+      "hace": "35 min"
+    },
+    {
+      "id": "E3",
+      "para": "Ari",
+      "motivo": "Error de sistema",
+      "titulo": "Receta bloqueada aunque el pago ya está confirmado",
+      "origen": "Chat #1040",
+      "escalo": "Janet",
+      "hace": "15 min"
+    }
+  ]
+}
